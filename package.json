@@ -2,7 +2,7 @@
   "name": "universal-paths",
   "version": "1.0.0",
   "description": "A small utility function for managing paths on client and server with a single configuration",
-  "main": "index.js",
+  "main": "./src/universal-paths.js",
   "scripts": {
     "test": "jest"
   },

@@ -1,6 +1,6 @@
 const has = require('lodash/has');
 
-const replaceParameters = (path) => (params = {}) => path.replace(/:([a-zA-Z]*)/g, (match, group) => (
+const replaceParameters = (path) => (params = {}) => path.replace(/:([A-Za-z0-9_]*)/g, (match, group) => (
   has(params, group) ? params[group] : match
 ));
 
