@@ -1,0 +1,24 @@
+{
+  "name": "universal-paths",
+  "version": "1.0.0",
+  "description": "A small utility function for managing paths on client and server with a single configuration",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Amberlamps/universal-paths.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Amberlamps/universal-paths/issues"
+  },
+  "homepage": "https://github.com/Amberlamps/universal-paths#readme",
+  "devDependencies": {
+    "jest": "^22.2.1",
+    "lodash": "^4.17.5"
+  }
+}
