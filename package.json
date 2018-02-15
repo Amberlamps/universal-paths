@@ -17,8 +17,10 @@
     "url": "https://github.com/Amberlamps/universal-paths/issues"
   },
   "homepage": "https://github.com/Amberlamps/universal-paths#readme",
-  "devDependencies": {
-    "jest": "^22.2.1",
+  "dependencies": {
     "lodash": "^4.17.5"
+  },
+  "devDependencies": {
+    "jest": "^22.2.1"
   }
 }
